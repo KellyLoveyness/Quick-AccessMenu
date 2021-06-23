@@ -5,6 +5,16 @@ window.addEventListener("load", () => {
     script.src = chrome.runtime.getURL(scriptFileName);
     return document.head.appendChild(script);
   }
+
+  function addCss(cssFyleName) {
+    let css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = chrome.runtime.getURL(cssFyleName);
+    return document.head.appendChild(css);
+  }
+
+  const QuickAccessMenuCss = ['css/dummy.css']
+
   const QuickAccessMenuUtilities = ["js/QuickAccessMenuUtilities/QuickAccessMenuGlobal.js", "js/QuickAccessMenuUtilities/QuickAccessMenuEngine.js", "js/QuickAccessMenuUtilities/QuickAccessMenuSettings.js"];
 
   const QuickAccessMenuCommands = [
@@ -25,17 +35,5 @@ window.addEventListener("load", () => {
 
   QuickAccessMenuUtilities.forEach(addScript);
   QuickAccessMenuCommands.forEach(addScript);
+  QuickAccessMenuCss.forEach(addCss);
 });
-
-let dummyCssDiv = document.createElement("div");
-dummyCssDiv.innerText = chrome.runtime.getURL("css/dummy.css");
-dummyCssDiv.id = "dummyCssDiv";
-dummyCssDiv.hidden = true;
-document.body.appendChild(dummyCssDiv);
-
-
-let css = document.createElement("link");
-css.rel = "stylesheet";
-css.href = chrome.runtime.getURL("css/dummy.css");
-document.head.appendChild(css);
-
