@@ -6,7 +6,7 @@ How to create new commands:
 2. In the contentscript.js file, add the name of the created namehere.js file to to QuickAccessMenuScripts array.
 4. If the command script needs a global variable, create it in the QuickAccessMenuGlobal.js file.
 5. Settings that concern the entirety of QuickAccessMenu, such as which chat prefix symbol to use, should be placed in QuickAccessMenuSettings.js.
-6. All done! Remember, changes can be added officially. Reach out either on https://discord.gg/YukepB6RVp or XXXXX
+6. All done! Remember, changes can be added officially. Reach out either on https://discord.gg/YukepB6RVp or https://github.com/KellyLoveyness/Quick-AccessMenu/
 
 
 
