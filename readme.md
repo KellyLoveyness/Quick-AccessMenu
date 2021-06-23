@@ -7,15 +7,14 @@ Fix curse incompatability, either on their or this end.
 Fix whisper command,
 
 Change embed engine in global to no longer use an interval.
+
 .
+
 .
+
 .
-.
-.
-.
-.
-.
-.
+
+
 .
 Quick-AccessMenu2.2.
 
