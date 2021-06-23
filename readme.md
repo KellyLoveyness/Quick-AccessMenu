@@ -22,14 +22,17 @@ Quick-AccessMenu2.2.
 ///////////////////////////////////////////////////////////////////////
 
 Credit:
+
 KellyLoveyness, Shyness, Ada, Kimei,
 
 Helpers (either advice or minor coding):
+
 Brianna, Better, Selina, Brianna, Vicky, Myrhanda, 
 
 ///////////////////////////////////////////////////////////////////////
 
 How to create new commands:
+
 1. Create a namehere.js file in the QuickAccessMenuCommands folder, preferably with the same name as the command.
 2. See demo.js for the structure of the namehere.js file. Edit with any text editor. Various help resources exists in QuickAccessMenuGlobal.js.
 2. In the contentscript.js file, add the name of the created namehere.js file to to QuickAccessMenuScripts array.
@@ -40,6 +43,7 @@ How to create new commands:
 ///////////////////////////////////////////////////////////////////////
 
 Installation Tutorial:
+
 Either, the files can be grabbed directly from the link below, which in case of FireFox is the only option for a signed .xpi (one-time installation).
 https://drive.google.com/drive/folders/1YpScmA5d1_PlECKP_tcOyZRgeBiKK4yD
 
