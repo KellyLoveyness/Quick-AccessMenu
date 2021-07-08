@@ -1,7 +1,7 @@
 QuickAccessMenu.push({
 	name: "resetdifficulty",
 	needArgument: false,
-	alias: undefined,
+	alias: ["difficultyreset"],
 	help: "Quick-AccessMenu2.2: Command can reset difficulty, to end extreme mode instantly for example.",
 	execute(argument) {
         if (argument.includes("yes")) {
